@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Dashboard } from './components/Dashboard';
+
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Dashboard</h1>
+    <Dashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );
